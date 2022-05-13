@@ -1,6 +1,6 @@
 ---
 title: "IR-SPG: Example"
-output: md_document
+output: html_vignette
 vignette: >
   %\VignetteIndexEntry{multifractal}
   %\VignetteEngine{knitr::rmarkdown}
@@ -9,7 +9,7 @@ vignette: >
 
 ## The Task
 
-Find the nearest correlation matrix subject to an equality constrained. This problem was described in Schadner and Traut (2022) at the estimation of forward-looking stock correlation matrices.
+Find the nearest correlation matrix subject to an equality constrain. This problem was described in Schadner and Traut (2022) at the estimation of forward-looking stock correlation matrices.
 
 ## Solving the Problem
 
