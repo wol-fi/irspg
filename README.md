@@ -1,12 +1,12 @@
 ### *IR-SPG*
 # Spectral Projected Gradient with Inexact Restoration
-An algorithm for large-scale optimization with non-convex constraints, based on the Spectral Projected Gradient method with Inexact Restoration (IR-SPG). The method is highly efficient when projections on the constraints are of low computaional effort. It allows to handle equality and inequality constraints simultaneously.
+An algorithm for large-scale nonlinear optimization problems with nonconvex constraints, based on the Spectral Projected Gradient method (SPG) with Inexacte Restoration (IR). The basic SPG is highly efficient for solving very large problems when projections on the feasbile set (constraints) are easy. The IR addon extends the algorithm for general nonlinearly constrained problems.
 
 #### Keywords
 non-linear programming, spectral projected gradient, inexact restoration, large-scale optimization
 
 #### MSC Codes
-90C30 90C26 65K05 49K35
+90C30, 90C26, 65K05, 49K35
 
 #### Applications
 Estimation of Forward-Looking Stock Correaltion Matrices: <https://doi.org/10.3390/math10101649>
