@@ -1,8 +1,9 @@
+# Illustration of IR-SPG:
+Nearest Option-Implied Correlation Matrix.
+
 ## The Task
 
-Find the nearest correlation matrix subject to an equality constrain.
-This problem was described in Schadner and Traut (2022) at the
-estimation of forward-looking stock correlation matrices.
+Find the nearest correlation matrix subject to an equality constrain. This problem was described in Schadner and Traut (2022) at the estimation of forward-looking stock correlation matrices.
 
 ## Solving the Problem
 
