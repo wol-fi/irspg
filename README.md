@@ -20,7 +20,7 @@ where
 * `qfn_g` ... gradient of equality constraint
 
 #### Example
-Check the 'example.md' file for an illustrative instruction.
+Check the [example](example.md) for an illustrative instruction.
 
 #### Keywords
 non-linear programming, spectral projected gradient, inexact restoration, large-scale optimization
