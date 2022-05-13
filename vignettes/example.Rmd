@@ -1,6 +1,6 @@
 ---
 title: "IR-SPG: Example"
-output: html_vignette
+output: md_document
 vignette: >
   %\VignetteIndexEntry{multifractal}
   %\VignetteEngine{knitr::rmarkdown}
@@ -93,7 +93,6 @@ library(irspg)
 data(sp100) 
 tmp <- sapply(ls(), function(z) assign(z, get(z))) 
 
-
 ## Run the optimization
 mdl <- irspg(x0, objfn, objfn_g, projfn, eqfn, eqfn_g)
 
@@ -117,4 +116,7 @@ mdl$ctime
 
 
 ```
+## References
+
+Schadner, W & Traut, J. (2022). "Estimating Forward-Looking Stock Correlations from Risk Factors", *Mathematics* 10(10), 1649. <https://doi.org/10.3390/math10101649>.
 
