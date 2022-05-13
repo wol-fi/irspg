@@ -2,6 +2,21 @@
 # Spectral Projected Gradient with Inexact Restoration
 An algorithm for large-scale nonlinear optimization problems with nonconvex constraints, based on the Spectral Projected Gradient method (SPG) with Inexacte Restoration (IR). The basic SPG is highly efficient for solving very large problems when projections on the feasbile set (constraints) are easy. The IR addon extends the algorithm for general nonlinearly constrained problems.
 
+#### Usage
+``` r
+irspg(X0, objfn, objfn_g, projfn, eqfn, eqfn_g)
+```
+where
+* `X0` ... initial values
+* `objfn` ... objective function
+* `obfn_g` ... gradient of objective function
+* `projfn` ... projection function
+* `eqfn` ... equality constraint (function)
+* `qfn_g` ... gradient of equality constraint
+
+#### Example
+An example can be found at the package's vignettes: *vignettes/example.html*
+
 #### Keywords
 non-linear programming, spectral projected gradient, inexact restoration, large-scale optimization
 
